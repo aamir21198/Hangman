@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <string name="animals">Animals</string>
+
+    <string name="games">Sports and Games</string>
+
+    <string name="countries">Countries</string>
+
+    <string name="fruits">Fruits</string>
+
+    <string name="two_player">Two Players</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.aamir.hangman.MainActivity"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/animals">
+        <TextView
+            android:id="@+id/animals"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/animals"
+            android:onClick="animals"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/games">
+        <TextView
+            android:id="@+id/games"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/games"
+            android:onClick="games"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fruits">
+        <TextView
+            android:id="@+id/fruits"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/fruits"
+            android:onClick="fruits"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/countries">
+        <TextView
+            android:id="@+id/countries"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/countries"
+            android:onClick="countries"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/two_player"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:id="@+id/two_player"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/two_player"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+        <EditText
+            android:id="@+id/word"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/two_player"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            android:hint="Enter word"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_send_white_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="10dp"
+            android:onClick="twoPlayer"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hangman"
+        android:textAllCaps="true"
+        android:fontFamily="cursive"
+        android:textColor="@color/used_button"
+        android:textSize="75sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
+</ScrollView>

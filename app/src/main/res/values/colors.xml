@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/two_player</color>
+    <color name="colorPrimaryDark">#6b1903</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary_color">#4A312A</color>
+
+
+
+    <color name="background">#faf203</color>
+
+    <color name="animals">#379237</color>
+
+    <color name="games">#16AFCA</color>
+
+    <color name="countries">#8800A0</color>
+
+    <color name="fruits">#FD8E09</color>
+
+    <color name="two_player">#ae2b07</color>
+
+    <color name="used_button">#b15035</color>
+
+    <color name="grey">@android:color/darker_gray</color>
+
+    <color name="yellow">#ffff00</color>
+
+    <color name="red">#c70707</color>
+
+    <color name="hangman">#bc6952</color>
+</resources>
