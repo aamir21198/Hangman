@@ -17,12 +17,12 @@
                 style="@style/Button"
                 android:id="@+id/q"
                 android:text="q"
-                android:onClick="q"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/w"
                 android:text="w"
-                android:onClick="w"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/e"
@@ -34,17 +34,17 @@
                 style="@style/Button"
                 android:id="@+id/r"
                 android:text="r"
-                android:onClick="r"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/t"
                 android:text="t"
-                android:onClick="t"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/y"
                 android:text="y"
-                android:onClick="y"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/u"
@@ -70,7 +70,7 @@
                 style="@style/Button"
                 android:id="@+id/p"
                 android:text="p"
-                android:onClick="p"/>
+                android:onClick="guessed"/>
 
 
         </LinearLayout>
@@ -94,42 +94,42 @@
                 style="@style/Button"
                 android:id="@+id/s"
                 android:text="s"
-                android:onClick="s"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/d"
                 android:text="d"
-                android:onClick="d"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/f"
                 android:text="f"
-                android:onClick="f"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/g"
                 android:text="g"
-                android:onClick="g"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/h"
                 android:text="h"
-                android:onClick="h"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/j"
                 android:text="j"
-                android:onClick="j"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/k"
                 android:text="k"
-                android:onClick="k"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/l"
                 android:text="l"
-                android:onClick="l"/>
+                android:onClick="guessed"/>
             <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -149,37 +149,37 @@
                 style="@style/Button"
                 android:id="@+id/z"
                 android:text="z"
-                android:onClick="z"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/x"
                 android:text="x"
-                android:onClick="x"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/c"
                 android:text="c"
-                android:onClick="c"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/v"
                 android:text="v"
-                android:onClick="v"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/b"
                 android:text="b"
-                android:onClick="b"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/n"
                 android:text="n"
-                android:onClick="n"/>
+                android:onClick="guessed"/>
             <Button
                 style="@style/Button"
                 android:id="@+id/m"
                 android:text="m"
-                android:onClick="m"/>
+                android:onClick="guessed"/>
             <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
@@ -294,14 +294,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/name"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         android:textSize="30sp"
-        android:textColor="@color/games"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"/>
 
 
-       <TextView
+    <TextView
         android:id="@+id/ans"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -313,5 +312,13 @@
         android:textColor="@color/two_player"
         android:fontFamily="casual"
         android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/used_button"/>
 
 </RelativeLayout>

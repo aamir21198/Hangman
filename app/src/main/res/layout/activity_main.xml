@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context="com.example.aamir.hangman.MainActivity"
+    tools:context="com.darukhanawalla.aamir.hangman.MainActivity"
     android:weightSum="1">
     <LinearLayout
         android:layout_width="match_parent"
@@ -62,7 +62,9 @@
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="@color/two_player"
-        android:layout_marginTop="30dp">
+        android:layout_marginTop="30dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
         <TextView
             android:id="@+id/two_player"
             style="@style/CategoryStyle"

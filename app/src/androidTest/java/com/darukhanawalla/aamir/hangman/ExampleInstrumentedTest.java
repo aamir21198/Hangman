@@ -1,4 +1,4 @@
-package com.example.aamir.hangman;
+package com.darukhanawalla.aamir.hangman;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

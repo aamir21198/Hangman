@@ -1,4 +1,4 @@
-package com.example.aamir.hangman;
+package com.darukhanawalla.aamir.hangman;
 
 import org.junit.Test;
 
